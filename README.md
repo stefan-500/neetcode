@@ -1,1 +1,6 @@
 # Neetcode 150 question solutions in Python
+
+### Alternative solutions are commented out.
+
+### Favourites
+- LRU Cache
