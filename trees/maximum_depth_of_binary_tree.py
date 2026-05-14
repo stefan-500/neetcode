@@ -46,7 +46,8 @@ class Solution:
   #   return res
 
 
-  # Recursive DFS solution (best) | Time: O(n), Space: O(n)
+  # Recursive DFS solution (best) | Time: O(n), Space: O(h),
+  # where n is the number of nodes in the tree and h is the height of the tree.
   def maxDepth(self, root: Optional[TreeNode]) -> int:
     if not root:
       return 0
