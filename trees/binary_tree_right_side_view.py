@@ -52,7 +52,7 @@ class Solution:
   #   return res
 
 
-  # BFS solution (best): Time: O(n), Space: O(n)
+  # BFS solution (best) | Time: O(n), Space: O(n)
   def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
     res = []
     q = deque([root])
