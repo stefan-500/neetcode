@@ -5,3 +5,4 @@
 ### Favourites
 - LRU Cache
 - Binary Tree Level Order Traversal
+- Implement Trie Prefix Tree
