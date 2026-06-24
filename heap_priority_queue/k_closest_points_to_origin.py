@@ -12,6 +12,22 @@ class Solution:
   #   return points[:k]
 
 
+  # Max Heap solution | Time: O(n * log k), Space: O(k) where n is the length of the array points.
+  # def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+  #   maxHeap = []
+  #   for x, y in points:
+  #     dist = -(x ** 2 + y ** 2)
+  #     heapq.heappush(maxHeap, [dist, x, y])
+  #     if len(maxHeap) > k:
+  #       heapq.heappop(maxHeap)
+
+  #   res = []
+  #   while maxHeap:
+  #     dist, x, y = heapq.heappop(maxHeap)
+  #     res.append([x, y])
+  #   return res
+
+
   # Min Heap solution (best) | Time: O(n + k * log n), when building the heap with heapify,
   # or O(n * log n + k * log n) when inserting each point with a heap push, Space: O(n)
   # where n is the length of the array points.
